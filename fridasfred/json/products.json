@@ -1,0 +1,64 @@
+[
+  {
+      name: 'product 1',
+      color: 'grey',
+      pattern: 'triangle',
+      size: '1',
+      variation: '1',
+      price: '100,00',
+      sizeX: '52.32',
+      sizeY: '100',
+      sizeZ: '20',
+      headline: 'lovly handbag lane',
+      descriptShort: 'lovely handbag made out of cotton and des....',
+      descriptLong: ' This is the long description with a lot of words',
+      images: [
+                  {
+                      id: '001',
+                      name: 'dress1',
+                      path: 'img/products/dress1'
+                  },
+                   {
+                      id: '002',
+                      name: 'picture2',
+                      path: 'img/products/product1'
+                  },
+                   {
+                      id: '003',
+                      name: 'picture3',
+                      path: 'img/products/product1'
+                  }
+              ]
+  },
+  {   name: 'product 2',
+      color: 'white',
+      pattern: 'triangle',
+      size: '1',
+      variation: '1',
+      price: '100,00',
+      sizeX: '52.32',
+      sizeY: '100',
+      sizeZ: '20',
+      headline: 'lovly handbag lane 2',
+      descriptShort: 'lovely handbag made out of cotton and des 2....',
+      descriptLong: ' This is the long description with a lot of words part2',
+      images: [
+                  {
+                      id: '001',
+                      name: 'dress2',
+                      path: 'img/products/dress2'
+                  },
+                   {
+                      id: '002',
+                      name: 'picture2',
+                      path: 'img/products/product2'
+                  },
+                   {
+                      id: '003',
+                      name: 'picture3',
+                      path: 'img/products/product2'
+                  }
+              ]
+  }
+
+]

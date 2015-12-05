@@ -1,0 +1,139 @@
+[
+
+  {
+
+    "name": "Home",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "Shop",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "About",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "Contact",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "Login",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "Register",
+
+    "place": "header"
+
+  },
+
+  {
+
+    "name": "LookBook",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "Projects",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "Care Instructions",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "Returns",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "International Orders",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "B2B",
+
+    "place": "footer"
+
+  },
+
+  {
+
+    "name": "twitter",
+
+    "place": "social"
+
+  },
+
+  {
+
+    "name": "google-plus",
+
+    "place": "social"
+
+  },
+
+  {
+
+    "name": "facebook",
+
+    "place": "social"
+
+  },
+
+  {
+
+    "name": "pinterest",
+
+    "place": "social"
+
+  },
+
+  {
+
+    "name": "instagram",
+
+    "place": "social"
+
+  }
+
+]

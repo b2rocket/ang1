@@ -1,0 +1,12 @@
+
+<h1>show all Contacts as TABLE</h1>
+<div ng-controller="ContactController as contact">
+
+<div ng-repeat="contactItem in contact.contacts">
+<h2> {{contactItem.id}}</h2>
+<h2><a href='/fridasfred/single/{{contactItem.id}}'</a>sss</h2>
+<h2> {{contactItem.name.last}}</h2>
+
+</div>
+</div>
+<a href="/fridasfred/">go back to Home</a>

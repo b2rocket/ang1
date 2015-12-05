@@ -1,0 +1,42 @@
+/* CSS for BASKET */
+
+.basket-table {
+  border-color: #ebebeb;
+  color: #99a086;
+  background-color: #fa;
+  border: thin #ebebeb;
+  text-transform: uppercase;
+}
+.basket-table thead th {
+  height: 35px;
+}
+.basket-table tbody td {
+  margin: 5px;
+  padding: 5px;
+}
+.basket-table tbody td .removeIcon {
+  display: inline;
+  margin: 10px auto 10px auto;
+  padding: auto;
+  width: auto;
+  ;
+}
+.headarea
+/*bsp: My Basket*/
+
+{
+  color: #99a086;
+}
+.removeIcon {
+  width: 50px;
+  margin: 10px auto 10px auto;
+}
+
+/
+
+.product-thumbnail {
+  display: block;
+  margin: 10px auto 10px;
+  height: auto;
+  width: auto;
+}

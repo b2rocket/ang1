@@ -1,0 +1,214 @@
+<!doctype html>
+<!--
+  oooooooooooo ooooooooo.   ooooo oooooooooo.         .o.                oooooooooooo ooooooooo.   oooooooooooo oooooooooo.
+   `888'     `8 `888   `Y88. `888' `888'   `Y8b       .888.               `888'     `8 `888   `Y88. `888'     `8 `888'   `Y8b
+    888          888   .d88'  888   888      888     .8"888.      .oooo.o  888          888   .d88'  888          888      888
+    888oooo8     888ooo88P'   888   888      888    .8' `888.    d88(  "8  888oooo8     888ooo88P'   888oooo8     888      888
+    888    "     888`88b.     888   888      888   .88ooo8888.   `"Y88b.   888    "     888`88b.     888    "     888      888
+    888          888  `88b.   888   888     d88'  .8'     `888.  o.  )88b  888          888  `88b.   888       o  888     d88'
+   o888o        o888o  o888o o888o o888bood8P'   o88o     o8888o 8""888P' o888o        o888o  o888o o888ooooood8 o888bood8P'
+
+                                                 .ooooo.   .ooooo.  ooo. .oo.  .oo.
+                                                d88' `"Y8 d88' `88b `888P"Y88bP"Y88b
+                                                888       888   888  888   888   888
+                                            .o. 888   .o8 888   888  888   888   888
+                                            Y8P `Y8bod8P' `Y8bod8P' o888o o888o o888o -->
+
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+
+<html lang="en" class="no-js" ng-app="shopStore">
+<!--+###Begin Angular initialisation#######-->
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <!--<base href="http://localhost/fridasfred/">-->
+  <title>FRIDAsFred.com presents the momi bag</title>
+  <!-- SEO Optimisation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <!--auch png möglich.-->
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="css/my_style.css"> -->
+  <!-- Für SHOP Template -->
+  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/welcome.css">
+  <!-- <link rel="stylesheet" href="../css/font-awesome.css"> -->
+  <!-- Für den Basket -->
+  <!-- <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/font-awesome.css"> -->
+  <link rel="stylesheet" href="css/_basket.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/fridasfred.css">
+
+
+
+
+  <!--   evtl später wieder aktivieren:
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+    <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
+  -->
+  <!--[if lt IE 9]>
+    <!--  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<!-- ######################################################################################   -->
+
+<body ng-controller="StoreController as store">
+
+<!--
+  <header>
+    <div class="bannerHead">
+      <div class="bannerHeadPromoline">
+        <div class="bannerHeadText">
+          GET ’EM BEFORE THEY’RE GONE! SHOP 30% OFF EVERYTHING! USE CODE
+          <span class="promoCode"> FINAL30 </span> UNTIL 7/22/15 11:59PM PACIFIC. FINAL SALE. </div>
+      </div>
+    </div>
+
+  -->
+<!-- BISHER NUR ENTWICKLET, nicht EINGESETZT: INFOPOPUP
+    <div class="popupContent">
+      <div class="dialogBox">
+        <div class="titleBar">
+          <div class="titleText">International shipping discontinued</div>
+        </div>
+        <div class="content">
+          <div>As you may have heard, eBay is acquiring some of our key technology to help power eBay Valet, and Twice will be winding down operations at the end of the month. As part of this change, we've discontinued international shipping. <a href="/letter-from-our-founders">Learn more about this change.</a></div>
+          <div class="buttonsContent">
+            <button class="buttonOkay"> Okay </button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <div class="container ">
+      <nav class="navbar  ">
+        <!-- navbar-inverse navbar-fixed-top-->
+
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="fa fa-bars fa-2x"></span>
+          </button>
+          <a class="navbar-brand" href="home">
+            <img src="img/logo.jpg" alt="" width="264" height="105" class="logo hidden-xs hidden-sm visible-md visible-lg">
+            <img src="img/logo.jpg" alt="" width="211" height="84" class="logo visible-xs visible-sm hidden-md hidden-lg">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right naviItem">
+            <!--## ## Angular lade alle HeaderMenüeinträge## ##-->
+            <li ng-repeat="item in store.menuItems" ng-if="item.place == 'header'">
+              <a ng-href="{{item.name}}">
+                              {{item.name}}
+                            </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+
+        <!-- /.container-->
+      </nav>
+    </div>
+  </header>
+
+  <!-- <div class="spacer120px"> </div>-->
+  <!-----------------------Header End------------------------------------------------------->
+
+
+  <div class="container conContentArea">
+    <div ng-view></div>
+    <!-- angular puts choosen template into div automaticly-->
+  </div>
+
+  <!----------------------------FOOT--START-------------------------------------->
+  <footer>
+    <!---------------#############################################---------->
+
+    <div class="container animated fadeIn">
+
+      <!--## ## Angular: lade alle footerSocialIcons-->
+      <div class="social">
+        <a ng-repeat="item in store.menuItems" ng-if="item.place == 'social'" ng-href="#/{{item.name}}" class="scrollpoint sp-effect3 animated fadeIn">
+          <i class="fa fa-{{item.name}} fa-lg"></i>
+        </a>
+      </div>
+
+      <!--## ## Angular: lade alle footer Menüeinträge-->
+      <ul id="footerItems">
+        <li class="footerItem  col-xs-12 col-sm-12 col-md-2 " ng-repeat="item in store.menuItems" ng-if="item.place == 'footer'">
+          <a ng-href="{{item.name}}">
+                    {{item.name}}
+                </a>
+        </li>
+      </ul>
+
+
+      <div class="padding20pxtopBottom newsletter">
+        <!--++++++++++++20px-->
+
+        <!-- Newsletter Area with autocheck ### Start-->
+
+        <form class="newsletterbox" style="clear:left;">
+          <input type="email" placeholder="email" class="newsletterEmailInput"></input>
+          <input type="submit" value="subscribe for newsletter" class="newsletterSubmit"></input>
+        </form>
+
+        <!-- Newsletter Area ### END-->
+
+      </div>
+      <!--END: class="container"-->
+
+
+      <div class="padding20pxtopBottom"></div>
+      <!--++++++++++++20px-->
+      <!--  Start COPYRIGHT -->
+      <div class="disclaimer uppercase">design and copyright by <a href="http://www.b2rocket.com">b2rocket.com</a></div>
+
+  </footer>
+
+  <!---------------#############################################--------------->
+  <!----------------------------FOOT--END-------------------------------------->
+
+  <!-- Load liberies-->
+
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/angular.js"></script>
+  <script type="text/javascript" src="js/angular-route.js"></script>
+  <script type="text/javascript" src="js/angular-resource.js"></script>
+
+  <script type="text/javascript" src="js/app.js"></script>
+
+  <script src="js/slick.min.js"></script>
+  <script src="js/placeholdem.min.js"></script>
+  <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+  <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!-- Backand SDK for Angular -->
+  <script src="js/backand.min.js"></script>
+
+
+</body>
+
+</html>

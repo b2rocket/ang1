@@ -1,0 +1,247 @@
+/* css for products */
+.wegis{
+    height: 0px;
+}
+
+.pad10
+{
+ padding-left: 10px !important;
+ padding-right: 10px !important;
+ padding-bottom: 20px !important;
+ padding-top: 10px !important;
+}
+
+
+.thumbnail{
+    padding: 0px !important;
+}
+.post-module {
+  position: relative;
+  z-index: 1;
+  display: block;
+  background: #ffffff;
+  min-width: 250px;
+  width: auto;
+  height: 400px;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.post-module:hover,
+.hover {
+  -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.post-module:hover .thumbnail img,
+.hover .thumbnail img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: .4;
+  overflow: hidden;
+}
+.post-module:hover .post-content .description,
+.hover .post-content .description {
+  max-height: 150px;
+}
+.post-module .thumbnail {
+  background: #ffffff;
+  height: 100%;
+  max-height: 700px;
+  overflow: hidden;
+}
+.post-module .thumbnail .soldOut {
+  position: absolute;
+  top: 20px;
+  right: -2px;
+  z-index: 1;
+  background: #000000;
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+  margin-right: 2px;
+  
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  
+   text-transform: uppercase;
+}
+
+.post-module .thumbnail .preOrder {
+
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 1;
+  background: #ff8000;
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+  margin-right: 2px;
+  
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post-module .thumbnail .newInStock {
+  
+   
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  z-index: 1;
+  background: #66cc99;
+  width: auto;
+  height: auto;
+  padding: 5px 5px;
+  margin-left: 0;
+  
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+.post-module .thumbnail img {
+  display: block;
+  height: auto;
+  width: 400px;
+  -webkit-transition: all 0.3s linear 0s;
+  -moz-transition: all 0.3s linear 0s;
+  -ms-transition: all 0.3s linear 0s;
+  -o-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+.post-module .post-content {
+  position: absolute;
+ /* overflow: hidden;  evtl. löschen später############################################################*/
+  bottom: 0;
+  height: 130px;
+  background: #ffffff;
+  width: 100%;
+  padding: 30px;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+}
+.post-module .post-content .category {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  background: #66cc99;
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.post-module .post-content ._title {
+  margin: 0;
+  padding: 0 0 10px;
+  color: #333333;
+  font-size: 130%;
+  font-weight: 500;
+  
+}
+
+
+.post-module .post-content ._sub_title {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #66cc99;
+  font-size: 100%;
+  font-weight: 300;
+  text-transform: uppercase; /*own*/
+}
+
+
+.post-module .post-content .description {
+  display: block;
+  max-height: 0;
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.8em;
+  -webkit-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -moz-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -ms-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
+  overflow: hidden;
+
+
+.hover .post-content .description {
+  display: block !important;
+  max-height: 250px !important;
+  opacity: 1 !important;
+ 
+}
+
+
+
+.container:before,
+.container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container .column {
+  /*width: 50%;*/
+  padding: 0px 15px 350px 15px;
+  -webkti-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  
+}
+.container .column .demo-title {
+  margin: 0 0 15px;
+  color: #666666;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container .info {
+  width: 200px;
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+}
+.container .info span {
+  color: #666666;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #66cc99;
+}
+
+
+
+

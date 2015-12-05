@@ -1,0 +1,14 @@
+
+<h1>This will be a ToDo List like TM</h1>
+<div  ng-controller="ToDoController as toDoCtrl">
+
+<div ng-repeat="toDoItem in toDoCtrl.toDoLists">
+<div class="toDoElement" style="background-color: #cccccc">
+  <h2> {{toDoItem.id}}</h2>
+  <h2> {{toDoItem.name}}</h2>
+  <h2> {{toDoItem.worker.first}}</h2>
+  <h2> {{toDoItem.content}}</h2>
+  <h2> {{toDoItem.worker.last}}</h2>
+</div>
+</div>
+</div>

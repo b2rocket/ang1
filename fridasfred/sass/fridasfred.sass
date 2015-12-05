@@ -1,0 +1,153 @@
+$brandColor1: #a0dcd0
+body
+  -webkit-font-smoothing: antialiased
+div
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  display: block
+.WHOweARE
+  visibility: hidden
+  height: 0px
+  width: 0px
+
+.bannerHead
+  -webkit-font-smoothing: antialiased
+  display: block
+  font-family: "Ideal Sans A", "Ideal Sans B", sans-serif
+  font-weight: 500
+  font-style: normal
+  font-size: 12px
+  text-transform: uppercase
+  letter-spacing: 1px
+  text-align: center
+  background: #222222
+  padding: 15px 0
+  vertical-align: baseline
+  margin: 0
+  color: #fff
+
+  .bannerHeadPromoline
+    display: inline-block
+    zoom: 1
+    border: 1px dashed rgba(255, 255, 255, 0.7)
+    position: relative
+    padding: 0 15px
+    margin: 0
+    font-size: 100%
+    font: inherit
+
+    .bannerHeadText
+      line-height: 35px
+      font-weight: 800
+
+      .promoCode
+        font-size: 110%
+        color: $brandColor1
+
+// PopUp mit Button, expl: shipping only USA and EU
+.popupContent
+  left: 50%
+  width: 450px
+  margin-top: -158px
+  margin-left: -240px
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.4)
+  position: absolute
+  top: 50%
+  margin: 0
+  z-index: 2
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  .dialogBox
+    background: #FFFFFF
+    .titleBar
+      text-transform: uppercase
+      letter-spacing: 2px
+      text-align: center
+      font-size: 14px
+      font-weight: 500
+      color: #7e7e7e
+      background: #f4f4f4
+      border-bottom: 1px solid #d8d8d8
+      padding: 20px 0 18px
+      position: relative
+      .titleText
+        text-transform: uppercase
+        letter-spacing: 2px
+        text-align: center
+        font-size: 14px
+        font-weight: 500
+        color: #7e7e7e
+    .content
+      width: auto
+      padding: 50px 60px 55px
+      position: relative
+      min-width: 360px
+      .buttonsContent
+        margin-top: 20px
+        text-align: left
+        font-family: "Ideal Sans A", "Ideal Sans B", sans-serif
+        font-weight: 400
+        font-style: normal
+        -webkit-user-select: none
+        .buttonOkay
+          transition-property: background-color
+          transition-duration: 0.2s
+          transition-timing-function: ease
+          transition-delay: 0s
+          text-transform: uppercase
+          letter-spacing: 3px
+          display: block
+          position: relative
+          border: 0
+          margin: 0
+          background-color: #5aa24e
+          background-image: none
+          background-repeat: no-repeat
+          background-position: 0 0
+          font-size: 12px
+          text-decoration: none
+          color: #fff
+          cursor: pointer
+          text-align: center
+          padding: 10px 12px 10px 13px
+          -webkit-font-smoothing: antialiased
+          -moz-osx-font-smoothing: grayscale
+          display: inline-block
+          zoom: 1
+          outline: none
+
+// Nav Bereich vergrößert, da Sonst Content im Header
+.navbar-brand
+  height: 150px !important
+
+
+
+
+//Abstand zwischen Menüpunkten verkleinert, da sonst sprung unter Logo
+.nav li a
+  padding-left: 10px !important
+  padding-right: 10px !important
+  text-transform: uppercase !important
+  font-family: 'Raleway', sans-serif
+  -webkit-transition: all 0.25s ease-in-out
+  -moz-transition: all 0.25s ease-in-out
+  -ms-transition: all 0.25s ease-in-out
+  -o-transition: all 0.25s ease-in-out
+  transition: all 0.5s ease
+
+
+//hover Effekt für Navigation Header
+
+.nav li  a:hover,
+.nav li  a:focus
+  border: solid 0px  !important
+  background-color: $brandColor1
+
+html
+  min-height: 100% !important
+  background: $brandColor1 !important

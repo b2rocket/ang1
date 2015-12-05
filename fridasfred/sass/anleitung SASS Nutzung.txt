@@ -1,0 +1,51 @@
+﻿Anleitung zur Nutzung SASS
+
+
+
+SASS = ohne Nutzung Sonderzeichen. Z.B. ";"" oder "{}"
+
+SCSS = wie SASS bloß mit Sonderzeichen (wie css syntax)
+
+
+
+SASS/SCSS setzt Ruby vorraus. 
+
+Download über:  http://rubyinstaller.org/
+Dokumentation 
+SASS/SCSS über: http://sass-lang.com/install
+
+
+
+Installation über CMD Windows Terminal: gem install sass
+
+Test der Installation via CMD: sass --v
+
+
+
+##########################################################################################
+
+
+SASS commado zur Überwachung und automatischer Umwandlung von SASS/SCSS in CSS:
+
+
+
+sass --watch sass/:css/
+
+  
+
+sass    =   Einleitungsvariable
+  
+--watch =   Befehl der auszuführen ist, somit automatisch überwachen und Konvertierung
+  
+sass/   =   Ordner der SASS und SCSS Files enthält und überwacht werden soll
+  
+:       =   Befehltrennung
+  CSS/    =   Zielordner der die konvertierten CSS Files enthält
+
+
+##########################################################################################
+
+
+
+
+Dokumentation zu Funktionsumfang: http://sass-lang.com/guide

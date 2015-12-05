@@ -1,0 +1,160 @@
+@charset "UTF-8"
+
+
+$brandColor1: #a0dcd0
+$brandColor1light: lighten($brandColor1, 25%)
+$brandColor1dark: darken($brandColor1, 25%)
+
+$footerTextColor: #ffffff
+$footerColor: #4b4b4b
+
+
+
+footer
+  background: $brandColor1
+
+  margin-top: 5px
+  bottom: 0px
+  width: 100%
+  padding: 10px 0 0 0
+  text-align: center
+  text-transform: uppercase
+
+
+  .social
+    display: block
+    margin-top: 20px
+
+    a
+      margin: 0 8px
+      padding: 15px
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      -ms-border-radius: 50%
+      -o-border-radius: 50%
+      border-radius: 50%
+      display: inline-block
+      -webkit-transition: all 0.5s ease-in-out
+      -moz-transition: all 0.5s ease-in-out
+      -ms-transition: all 0.5s ease-in-out
+      -o-transition: all 0.5s ease-in-out
+      transition: all 0.5s ease-in-out
+      border: 2px solid $footerColor
+
+    i
+      width: 1em
+      color: $footerColor
+
+    a:hover
+      border: 2px solid $footerTextColor
+
+      i
+        color: $footerTextColor
+        transition: color 0.5s ease
+
+  .rights
+    margin-top: 10px
+    color: $footerTextColor
+
+    a
+      -webkit-transition: all 0.5s ease-in-out
+      -moz-transition: all 0.5s ease-in-out
+      -ms-transition: all 0.5s ease-in-out
+      -o-transition: all 0.5s ease-in-out
+      transition: all 0.5s ease-in-out
+      font-weight: bold
+      color: $footerTextColor
+      font-weight: 300
+      text-decoration: none
+
+    a:hover
+      text-decoration: none
+
+#footerItems
+  padding-top: 30px
+
+
+
+  li
+    text-decoration: none
+    list-style: none
+
+.footerItem a:hover
+  color: $footerTextColor
+  -webkit-transition: all 0.5s ease-in-out
+  -moz-transition: all 0.5s ease-in-out
+  -ms-transition: all 0.5s ease-in-out
+  -o-transition: all 0.5s ease-in-out
+
+
+// Begin Newsletter:
+.newsletter
+  .newsletterbox
+    color: $brandColor1light
+    width: auto
+    height: auto
+    text-transform: uppercase
+    margin: 20px auto 20px auto
+    padding: 20px
+    transition: border-color 1s ease
+    box-sizing: border-box
+    border:  solid 1px
+
+
+.newsletterEmailInput
+  
+  width: 320px
+  height: auto
+  letter-spacing: 0.15em
+  font-size: 1.05em
+  background: transparent
+  border: none
+  text-transform: uppercase
+  border-bottom: solid 1px $brandColor1light
+  text-align: center
+  transition: border-color 0.6s ease
+  color: $brandColor1light
+
+.newsletterEmailInput:focus
+  outline: none
+  border: none
+  border-bottom: solid 1px $footerTextColor
+  letter-spacing: 0.15em
+  transition: border-color 1s ease
+  text-transform: uppercase
+  font-size: 1.05em
+  background: transparent
+  color: $footerTextColor
+
+
+.newsletterSubmit
+  appearance: none
+  width: 380px
+  height: 30px
+  font-size: 1.05em
+  background: transparent
+  color: $footerColor
+  border: none
+  text-align: center
+  letter-spacing: 0.15em
+  text-transform: uppercase
+  transition: color 0.5s ease
+  outline: none
+  border: none
+
+.newsletterSubmit:hover
+  color: $footerTextColor
+  cursor: pointer
+  transition: color 0.5s ease
+
+
+
+.disclaimer
+  color: $footerColor
+  padding: 10px 0 10px 0
+
+  a
+    color: $footerTextColor
+
+.padding20pxtopBottom
+  padding-top: 40px
