@@ -1,0 +1,36 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,800';
+bodyscreener {
+  background: -webkit-linear-gradient(#ebece7, white);
+  background: linear-gradient(#ebece7, white);
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif; }
+
+.containerScreener {
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
+
+.titleScreener {
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("../img/sbg_(1).jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px; }
+
+.subtitleScreener {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px; }
+
+/*# sourceMappingURL=style.css.map */
