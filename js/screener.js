@@ -3,7 +3,7 @@
   var ww = $( window ).width();
   var wh = $( window ).height();
   var traX, traY;
-  $(".containerScreener").mousemove(function(e){
+  $(".container").mousemove(function(e){
     mouseX = e.pageX;
     mouseY = e.pageY;
     traX = ((4 * mouseX) / 570) + 40;
