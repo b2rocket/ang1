@@ -45,6 +45,9 @@
         controler: 'Table',
         templateUrl: 'template/table.html'
       })
+      .when('/screener', {
+        templateUrl: 'template/screener.html'
+      })
 
       .when('/todo', {
         controler: 'ToDoController',
@@ -109,7 +112,7 @@ var toDoList = [{
     first: 'Steve',
     last: 'Heinio'
   },
-  content: 'Mache dies oder das'
+  content: 'Mache dies oder das2'
 }, {
   id: '2',
   name: 'ToDo Teil 2',
@@ -212,6 +215,9 @@ var toDoList = [{
     name: 'add',
     place: 'header'
   }, {
+    name: 'screener',
+    place: 'header'
+  },{
     name: 'table',
     place: 'header'
   },{
