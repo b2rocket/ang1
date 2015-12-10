@@ -1,3 +1,6 @@
+
+/* V1 */
+
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,800';
 bodyscreener {
   background: -webkit-linear-gradient(#ebece7, white);
@@ -19,7 +22,7 @@ bodyscreener {
   font-weight: 800;
   color: transparent;
   font-size: 120px;
-  background: url("../img/sbg_(2).jpg") repeat;
+  background: url("img/bg/bg_8.jpg") repeat;
   background-position: 40% 50%;
   -webkit-background-clip: text;
   position: relative;

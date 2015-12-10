@@ -28,8 +28,7 @@
         templateUrl: 'partials/_about.html'
 
       })
-
-    .when('/login', {
+      .when('/login', {
         templateUrl: 'template/product.html'
           /* neue templates */
       })
@@ -98,6 +97,17 @@
     $scope.contactList = $scope.contacts[param - 1];
     this.newList = $scope.contactList;
     console.log(this.newList);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
